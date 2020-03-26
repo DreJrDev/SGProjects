@@ -1,0 +1,26 @@
+/*
+Creator: Andre Blankholm
+Date: Created 3/20/2020
+Last date modified: 3/20/2020
+*/
+
+
+header, footer {
+	background-color:pink;
+
+}
+h1 {
+color:darkblue; font-family: armenian;
+}
+
+ footer {
+   color:black;
+   }
+ 
+  nav .btn {
+	background-color: maroon;
+	color: pink;
+}
+nav .btn:hover {
+	font-weight: bold;
+}
