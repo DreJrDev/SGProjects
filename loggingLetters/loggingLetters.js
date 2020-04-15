@@ -4,4 +4,4 @@ var sentence = "I love Learning software development";
 		  console.log(sentence[i]);
 	  }
   }
-  
+ 
