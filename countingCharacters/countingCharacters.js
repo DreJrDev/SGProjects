@@ -46,11 +46,40 @@ function rollDice() {
 }
 
 for ( var i = 0; i < 100; i++ ) {
-console.log(rollDice() ); }
+console.log(rollDice() + 1 ); }
 
 function rollDice(numSides) {
   return Math.floor(Math.random() * numSides) + 1;
 }
+
+var friends = [ "Aneki", "Quill", "Clarity", "Sleepy", "Roger", "DM Crimson" ];
+
+var team1 = new Array();
+var team2 = new Array();
+
+for (var i = 0; i < friends.length; i++) {
+    if (i % 2 == 0) {
+       team1.push (friends[i]);
+    } else {
+      team2.push(friends[i]);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
