@@ -1,6 +1,6 @@
 //Name: Andre Blankholm
 //Date: 4/20/2020
-//Last date revised: 4/26/2020
+//Last date revised: 4/30/2020
 
 
 function countingCharacters ( stringToCount ) { 
@@ -35,9 +35,7 @@ function countingCharacters3 (str, search){
         }     
     }
 	
-	console.log("String to search in: " + str);
-    console.log("Character to find: " + search);
-    console.log("Number of times the character appears: " + count);
+	return count++;
 }
 
 
