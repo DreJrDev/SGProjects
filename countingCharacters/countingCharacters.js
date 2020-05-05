@@ -43,8 +43,6 @@ function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-for ( var i = 0; i < 100; i++ ) {
-console.log(rollDice() + 1 ); }
 
 function rollDice(numSides) {
   return Math.floor(Math.random() * numSides) + 1;
@@ -64,10 +62,10 @@ for (var i = 0; i < friends.length; i++) {
     }
 }
 
+var friends = ["Aneki", "Quell", "Charity", "Sleepy", "Roghar", "DM Crimson" ];
 
-
-
-
+var team1 = new Array();
+var team2 = new Array();
 
 
 
