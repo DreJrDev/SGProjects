@@ -1,6 +1,6 @@
 //Name: Andre Blankholm
 //Date: 4/20/2020
-//Last date revised: 5/04/2020
+//Last date revised: 5/05/2020
 
 
 function countingCharacters ( stringToCount ) { 
@@ -67,13 +67,22 @@ var friends = ["Aneki", "Quell", "Charity", "Sleepy", "Roghar", "DM Crimson" ];
 var team1 = new Array();
 var team2 = new Array();
 
+for (var i = 0; i < friends.length; i++) {
+    if (i % 2 == 0) {
+        // if the index is even, add the person to team 1
+        team1[team1.length] = friends[i];
+    } else {
+        // otherwise add them to team 2
+        team2[team2.length] = friends[i];
+    }
+}
 
+var workers = [ "bill", "ted", "ed", "marty", "shawn" ];
 
+var crew1 = new Array();
+var crew2 = new Array();
 
-
-
-
-
+for ( var i = 0; i < workers.length; i++ ) { if ( i % 2 == 0 ) { crew1.push(workers[i] ); } else { crew2.push(workers[i] ); } }
 
 
 
