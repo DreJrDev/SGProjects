@@ -70,10 +70,10 @@ var team2 = new Array();
 for (var i = 0; i < friends.length; i++) {
     if (i % 2 == 0) {
         // if the index is even, add the person to team 1
-        team1[team1.length] = friends[i];
+        team1.push(friends[i]);
     } else {
         // otherwise add them to team 2
-        team2[team2.length] = friends[i];
+        team2.push(friends[i]);
     }
 }
 
@@ -84,12 +84,15 @@ var crew2 = new Array();
 
 for ( var i = 0; i < workers.length; i++ ) { if ( i % 2 == 0 ) { crew1.push(workers[i] ); } else { crew2.push(workers[i] ); } }
 
+var topDog = [ 'one', 'two', 'three', 'four', 'five' ];
 
+var pop = new Array();
+var dog = new Array();
 
-
-
-
-
+for ( var i = 0; i < topDog.length; i++) {
+	if ( i % 2 == 0 ) { 
+		pop.push(topDog[i] ); }
+			else { dog.push(topDog[i] ); } }
 
 
 
