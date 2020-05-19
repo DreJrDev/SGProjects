@@ -1,6 +1,6 @@
 // Name: Andre Blankholm
 // Date: 4/20/2020
-// Last date revised: 4/26/2020
+// Last date revised: 5/13/2020
 
 
 function countingCharacters3(str, search){ 

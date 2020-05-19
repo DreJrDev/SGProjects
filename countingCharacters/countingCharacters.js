@@ -1,6 +1,6 @@
 //Name: Andre Blankholm
 //Date: 4/20/2020
-//Last date revised: 5/05/2020
+//Last date revised: 5/13/2020
 
 
 function countingCharacters ( stringToCount ) { 
@@ -93,6 +93,28 @@ for ( var i = 0; i < topDog.length; i++) {
 	if ( i % 2 == 0 ) { 
 		pop.push(topDog[i] ); }
 			else { dog.push(topDog[i] ); } }
+
+
+var fruits = ['kiwi', 'rambutan', 'mango', 'tomato' ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
