@@ -3,7 +3,7 @@
 //Last date revised: 5/13/2020
 
 
-function countingCharacters ( stringToCount ) { 
+function countingCharacters( stringToCount ) { 
 	console.log ( stringToCount + "has" + stringToCount.length + "characters." );
 	}
 	

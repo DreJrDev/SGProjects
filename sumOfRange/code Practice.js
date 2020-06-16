@@ -19,6 +19,23 @@ findMax(newArray);
 
 
 
+var originalArray = [ 1, 2, 3, 9, 100, 101, 105, 300, 299, 12 ];
+
+function findMax(theArray) {
+	var maxNumber = 0;
+
+	for ( var i = 0; i < theArray.length; i++ ) {
+   var currentNumber = theArray[i];
+   
+   if ( currentNumber > maxNumber ) {
+   maxNumber = currentNumber;
+   }
+  }
+  console.log( maxNumber )
+ 
+  }
+ 
+ findMax(originalArray);
 
 
 
@@ -26,10 +43,10 @@ findMax(newArray);
 
 
 
-var newArray =[ 17, 42, 311, 5, 9, 10 ,28, 7, 6 ];
+var someArrayPassed =[ 17, 42, 311, 5, 9, 10 ,28, 7, 6 ];
 
 
-function findMax(someArrayPassed) {
+function findMax(newArray) {
 	
 	var highestNumber = 0;
 	
