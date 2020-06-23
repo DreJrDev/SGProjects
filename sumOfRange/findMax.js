@@ -63,7 +63,7 @@ function findMax(newArray) {
 	
 }
 	
-findMax(newArray);	
+findMax(someArrayPassed);	
 	
 	
 	
