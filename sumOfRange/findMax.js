@@ -71,7 +71,23 @@ findMax(someArrayPassed);
 	
 	
 	
-	
+	var newArray = [1, 2, 3, 44 ];
+
+
+function findMax(poopOnYou){
+	var highestNumber = 0;
+  for(var i = 0; i < newArray.length; i++){
+	var currentNumber = newArray[i];
+  
+  if( currentNumber > highestNumber) {
+ highestNumber = currentNumber;
+  }
+  }
+ console.log(" The highest number was" + highestNumber);
+  
+  }
+  
+  findMax(newArray);
 	
 	
 	
