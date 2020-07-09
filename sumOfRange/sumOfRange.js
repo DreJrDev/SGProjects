@@ -23,13 +23,7 @@ for ( arrayPosition = 0; arrayPosition < findMax.length ; arrayPosition++ ) {
 	var currentElement = findMax[ arrayPosition ];
 	var nextElement = findMax[ arrayPosition + 1 ];
 	
-	if ( currentElement < nextElement ) { 
 	
-	nextElement == currentElement; }
-
-	
-}
-console.log(currentElement);
 	
 	
 	
